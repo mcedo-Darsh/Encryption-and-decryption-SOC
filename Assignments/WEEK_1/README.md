@@ -1,8 +1,8 @@
 # Week 1
 
-In this week, I studied about Neural Networks:
+In this week, I studied about MLP Neural Networks:
 
-- Neural Networks are layers of nodes where, every all nodes of adjacent layers are interconnected. The connections carry values called weights and each layer has its ownn bias. The first layer of nodes gets input, these inputs are numbers which are operated by weights and biases which creates the next layer. This causes the values to change and in the final layer, we get a tensor of values of each node. The node predicted by a trained model has highest values compared to other nodes. This is the way how a model predicts.
+- MPL (Multi Layer Perceptron) Neural Networks are layers of nodes where, every all nodes of adjacent layers are interconnected. The connections carry values called weights and each layer has its ownn bias. The first layer of nodes gets input, these inputs are numbers which are operated by weights and biases which creates the next layer. This causes the values to change and in the final layer, we get a tensor of values of each node. The node predicted by a trained model has highest values compared to other nodes. This is the way how a model predicts.
 
 - After every batch, loss is calculated. Loss is basically the sum of squares of differences between predicted values and actual values. The lower the loss the better the model performs. After the loss is calculated, weights and biases are adjusted to get a better prediction. These small adjustments change the affect the predictions made by the model, and after every adjustment, the model predicts better and better.
 
